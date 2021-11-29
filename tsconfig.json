@@ -20,6 +20,7 @@
     "paths": {
       "@configs": ["src/configs"],
       "@commom/*": ["src/common/*"],
+      "@users/*": ["src/modules/users/*"],
       "@categories/*": ["src/modules/categories/*"],
     }
   }
