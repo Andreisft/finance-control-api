@@ -11,7 +11,7 @@ import {
 
 // Services
 
-import { CategoriesService } from './categories.service';
+import { CategoriesService } from '@categories/categories.service';
 
 // Dto's
 

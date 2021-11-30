@@ -18,6 +18,7 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
+      "@auth/*": ["src/modules/auth/*"],
       "@configs": ["src/configs"],
       "@commom/*": ["src/common/*"],
       "@users/*": ["src/modules/users/*"],

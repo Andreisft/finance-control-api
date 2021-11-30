@@ -3,12 +3,14 @@ import {
   Injectable,
   NotFoundException,
 } from '@nestjs/common';
+
 import { hash } from 'argon2';
+
 import { Connection } from 'typeorm';
 
-import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
-import { User } from './entities/user.entity';
+import { CreateUserDto } from '@users/dto/create-user.dto';
+import { UpdateUserDto } from '@users/dto/update-user.dto';
+import { User } from '@users/entities/user.entity';
 
 @Injectable()
 export class UsersService {

@@ -10,10 +10,10 @@ import {
 } from 'class-validator';
 
 export class CreateUserDto {
-  @UsernameExists()
+  // @UsernameExists()
   username: string;
 
-  @IsEmail()
+  // @IsEmail()
   @EmailExists()
   email: string;
 
