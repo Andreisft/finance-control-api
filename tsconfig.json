@@ -23,6 +23,7 @@
       "@commom/*": ["src/common/*"],
       "@users/*": ["src/modules/users/*"],
       "@categories/*": ["src/modules/categories/*"],
+      "@entries/*": ["src/modules/entries/*"],
     }
   }
 }

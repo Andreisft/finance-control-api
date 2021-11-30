@@ -25,6 +25,7 @@ import { UsernameExistsValidator } from '@commom/validators/username-exists.vali
 
 import { JwtAuthGuard } from '@commom/guards/jwt-auth.guard';
 import { AuthModule } from '@auth/auth.module';
+import { EntriesModule } from './modules/entries/entries.module';
 
 @Module({
   imports: [
@@ -34,6 +35,7 @@ import { AuthModule } from '@auth/auth.module';
     CategoriesModule,
     UsersModule,
     AuthModule,
+    EntriesModule,
   ],
   providers: [
     { provide: APP_INTERCEPTOR, useClass: ClassSerializerInterceptor },
